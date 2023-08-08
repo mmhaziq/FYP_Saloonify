@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942458038192",
+    "firebase_url": "https://saloonify-59c4c-default-rtdb.firebaseio.com",
+    "project_id": "saloonify-59c4c",
+    "storage_bucket": "saloonify-59c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942458038192:android:13eeefff1bf8e5deb21875",
+        "android_client_info": {
+          "package_name": "com.example.saloonify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942458038192-9dp2bdg3au70cvv24hl4tmuqrna8trd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy4snTWJbVkO8mbqxB7BfNSRUnjVeD9Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942458038192-9dp2bdg3au70cvv24hl4tmuqrna8trd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

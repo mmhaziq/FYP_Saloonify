@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saloonify">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Saloonify">
+        <activity
+            android:name=".AdminViewProductOrders"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenTick"
+            android:exported="false" />
+        <activity
+            android:name=".FaceFilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserBill"
+            android:exported="false" />
+        <activity
+            android:name=".CashOnDeliveryForm"
+            android:exported="false" />
+        <activity
+            android:name=".UserProceedOrder"
+            android:exported="false" />
+        <activity
+            android:name=".UserCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProductList"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".AdmininventoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserEnquiryHome"
+            android:exported="true" />
+        <activity
+            android:name=".UserEnquiryAppointments"
+            android:exported="true" />
+        <activity
+            android:name=".UserEnquiryOptions"
+            android:exported="true" />
+        <activity
+            android:name=".AdminConfirmHome"
+            android:exported="true" />
+        <activity
+            android:name=".AdminConfirmAppointment"
+            android:exported="true" />
+        <activity
+            android:name=".AdminFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".UserGiveFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPendingHome"
+            android:exported="true" />
+        <activity
+            android:name=".AdminHomeoptions"
+            android:exported="true" />
+        <activity
+            android:name=".UserBookHomeService"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPendingAppointments"
+            android:exported="true" />
+        <activity
+            android:name=".AdminAppointmentoptions"
+            android:exported="true" />
+        <activity
+            android:name=".UserBookAppointment"
+            android:exported="true" />
+        <activity
+            android:name=".MakeNewAdmin"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".AdminDashboard" -->
+        <!-- android:exported="true"/> -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".UserDashboard"
+            android:exported="true" />
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
