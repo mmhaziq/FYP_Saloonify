@@ -1,7 +1,7 @@
 # FYP_Saloonify
 *This is a final year project for SZABIST University (class of 2019) developed  by Hasan and Haziq.*
 
-*‘Saloonify’* is an android application that is focused on how a person may look after any specific saloon/cosmetic service as well as make an appointment for home service or on saloon from the specific stylist
+*‘Saloonify’* is an android application that is focused on how a person may look after any specific saloon/cosmetic service as well as make an appointment for home service or on saloon from a specific stylist. In addition an online store is also present if there is a need for beauty products to be purchased.
 
 ## Tools & Technology Used
 - Android Studio --> Android SDK (JAVA + KOTLIN)
